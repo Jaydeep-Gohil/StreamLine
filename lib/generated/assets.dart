@@ -8,9 +8,13 @@ class Assets {
   static const String imagesLaughingMatters = 'assets/images/Laughing-Matters.jpg';
   static const String imagesMirage = 'assets/images/Mirage.jpg';
   static const String imagesNebula = 'assets/images/Nebula.jpg';
+  static const String imagesOTTImagesPrime = 'assets/images/OTT-Images/Prime.webp';
   static const String imagesPulse = 'assets/images/Pulse.jpg';
   static const String imagesSunsetRider = 'assets/images/Sunset-Rider.jpg';
   static const String imagesTheSilentEcho = 'assets/images/The-Silent-Echo.jpg';
   static const String imagesWelcomeScreen = 'assets/images/Welcome-Screen.jpg';
+  static const String oTTImagesHulu = 'assets/images/OTT-Images/Hulu.jpg';
+  static const String oTTImagesItunes = 'assets/images/OTT-Images/Itunes.jpeg';
+  static const String oTTImagesPrime = 'assets/images/OTT-Images/Prime.png';
 
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:streamline/Screens/Movie_Home_Screen.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({super.key});
@@ -140,7 +141,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     ),
                   ),
                   onPressed: () {
-                    // Sign up logic here
+                    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>MovieHomeScreen()));
                   },
                   child: const Text(
                     'Sign up',

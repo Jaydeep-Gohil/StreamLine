@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: SignInScreen(), // Change to SignUpScreen() to test the signup screen
+      home: WelcomeScreen(), // Change to SignUpScreen() to test the signup screen
     );
   }
 }

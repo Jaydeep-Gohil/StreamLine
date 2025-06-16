@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:streamline/Screens/SignIn_Screen.dart';
 import 'package:streamline/Screens/SignUp_Screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
@@ -53,7 +54,7 @@ class WelcomeScreen extends StatelessWidget {
                         ),
                       ),
                       onPressed: () {
-                        Navigator.push(context, MaterialPageRoute(builder: (context)=>SignUpScreen()));
+                        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>SignUpScreen()));
                       },
                       child: const Text(
                         'Sign Up',
@@ -75,7 +76,7 @@ class WelcomeScreen extends StatelessWidget {
                         ),
                       ),
                       onPressed: () {
-                        Navigator.push(context, MaterialPageRoute(builder: (context)=>SignUpScreen()));
+                        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>SignInScreen()));
                       },
                       child: const Text(
                         'Log In',
